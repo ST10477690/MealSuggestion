@@ -41,7 +41,8 @@ class MainActivity : AppCompatActivity() {
               txtSuggestion.text = Suggestion
 
             btnClear.setOnClickListener{
-                txtSuggestion.text = null
+                edtTimeOfDay.text.clear()
+                txtSuggestion.text = ""
 
 
             }
